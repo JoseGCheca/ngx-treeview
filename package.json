@@ -4,6 +4,7 @@
   "license": "MIT",
   "description": "An Angular treeview component with checkbox",
   "scripts": {
+    "preinstall": "npm install --only=dev",
     "postinstall": "npm run build",
     "start": "ng serve",
     "lint": "ng lint",
